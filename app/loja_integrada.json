@@ -20,7 +20,7 @@
     "fields": [
       {
         "name": "chave_api",
-        "label": "Chave da API",
+        "label": "Chave para API",
         "type": "text",
         "validations": [
           {"name": "min_length", "value": 10}
@@ -34,8 +34,68 @@
       }
     ],
     "tutorial": {
-      "link": {},
-      "steps": []
+      "link": {
+        "pt_BR": "Como gerar a chave para API da Loja Integrada?",
+        "en": "How to generate the Loja Integrada key for API?"
+      },
+      "steps": [
+        {
+          "title": {
+            "pt_BR": "Passo 1",
+            "en": "Step 1"
+          },
+          "content": {
+            "pt_BR": "Caso possua um plano PRO, acesse em seu painel Configurações > Chave para API",
+            "en": "Caso possua um plano PRO, acesse em seu painel Configurações > Chave para API"
+          },
+          "img_url": {
+            "pt_BR": "https://uploads.intercomcdn.com/i/o/28298295/8218cdaf5f81d9292352c806/Chave+para+API.png",
+            "en": "https://uploads.intercomcdn.com/i/o/28298295/8218cdaf5f81d9292352c806/Chave+para+API.png"
+          }
+        },
+        {
+          "title": {
+            "pt_BR": "Passo 2",
+            "en": "Step 2"
+          },
+          "content": {
+            "pt_BR": "Depois vá em Cadastrar nova chave.",
+            "en": "Depois vá em Cadastrar nova chave."
+          },
+          "img_url": {
+            "pt_BR": "https://uploads.intercomcdn.com/i/o/28298307/d1c941c923c70eecfd2c6f78/Cadastrar+nova+chave.png",
+            "en": "https://uploads.intercomcdn.com/i/o/28298307/d1c941c923c70eecfd2c6f78/Cadastrar+nova+chave.png"
+          }
+        },
+        {
+          "title": {
+            "pt_BR": "Passo 3",
+            "en": "Step 3"
+          },
+          "content": {
+            "pt_BR": "Agora informe em <strong>\"Identificação da Chave\"</strong> o nome que desejar ou do serviço que utilizará essa chave.",
+            "en": "Agora informe em <strong>\"Identificação da Chave\"</strong> o nome que desejar ou do serviço que utilizará essa chave."
+          },
+          "img_url": {
+            "pt_BR": "https://uploads.intercomcdn.com/i/o/28298336/5ed7235a3964781a5b131933/Chave+para+API2.png",
+            "en": "https://uploads.intercomcdn.com/i/o/28298336/5ed7235a3964781a5b131933/Chave+para+API2.png"
+          }
+        },
+        {
+          "title": {
+            "pt_BR": "Passo 4",
+            "en": "Step 4"
+          },
+          "content": {
+            "pt_BR": "Assim será gerada a chave para API da sua loja.",
+            "en": "Assim será gerada a chave para API da sua loja."
+          },
+          "img_url": {
+            "pt_BR": "https://uploads.intercomcdn.com/i/o/28298392/6a5253dfb41089acb5c4c706/Chave+para+API3.png",
+            "en": "https://uploads.intercomcdn.com/i/o/28298392/6a5253dfb41089acb5c4c706/Chave+para+API3.png"
+          }
+        }
+      ]
     },
     "ping_request": {
     	"method_name": "/codigo_html"
