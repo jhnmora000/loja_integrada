@@ -254,15 +254,18 @@
   },
   "trigger_type": "polling",
   "base_datetime_filter": {
-    "field": "data_modificacao",
-    "format": "%Y-%M-%D %H:%m:%s"
+    "field": "data_criacao",
+    "format": "%Y-%M-%DT%H:%m:%s"
   },
   "request": {
-    "method_name": "/pedido/search/",
-    "params": {"limit": 50},
+    "method_name": "/pedido/search",
+    "params": {
+      "limit": 50,
+      "since_criado":"{base_datetime_filter}"
+    },
     "response_field": "response",
     "additional_resources": [
-      {"name": "numero", "method": "/pedido/"}
+      { "name": "numero", "method": "/pedido/" }
     ]
   }
 }

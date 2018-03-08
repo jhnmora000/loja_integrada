@@ -1,7 +1,7 @@
 {
   "name": "Loja Integrada",
   "app_id": "loja_integrada",
-  "color": "",
+  "color": "#2A517C",
   "description": {
     "pt_BR": "A Loja Integrada é a plataforma de e-commerce completa para a sua loja virtual.",
     "en": ""
@@ -29,10 +29,8 @@
       {
         "name": "chave_aplicacao",
         "label": "Chave da Aplicação",
-        "type": "text",
-        "validations": [
-          {"name": "min_length", "value": 10}
-        ]
+        "type": "hidden",
+        "default": "pluga_chave_aplicacao"
       }
     ],
     "tutorial": {
