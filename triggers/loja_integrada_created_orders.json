@@ -51,6 +51,7 @@
         "key":"numero.valor_total_text",
         "name":"Valor Total em Reais (texto)",
         "source":"format_currency(source[:numero][:valor_total])",
+        "force_source": true,
         "description":"Valor total do pedido em Reais. Ex: R$ 42,00",
         "field_type":"string"
       },
