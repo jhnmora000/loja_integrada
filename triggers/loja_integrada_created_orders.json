@@ -255,7 +255,7 @@
   "trigger_type": "polling",
   "base_datetime_filter": {
     "field": "data_criacao",
-    "format": "%Y-%M-%DT%H:%m:%s"
+    "format": "%Y-%m-%dT%H:%m:%S"
   },
   "request": {
     "method_name": "/pedido/search",
@@ -263,7 +263,7 @@
       "limit": 50,
       "since_criado":"{base_datetime_filter}"
     },
-    "response_field": "response",
+    "response_field": "objects",
     "additional_resources": [
       { "name": "numero", "method": "/pedido/" }
     ]
