@@ -155,7 +155,7 @@
         "key":"numero.pagamentos.nome",
         "name":"Nomes dos Métodos de Pagamento",
         "description":"nomes dos Métodos de pagamento.",
-        "source":"source[:numero][:pagamentos].map{|i|i[:forma_pagamento][:nome]}.join(%q(, ))",
+        "source":"source[:numero][:pagamentos].map{|i|i[:forma_pagamento][:nome]}.join(%(, ))",
         "force_source": true,
         "field_type":"string"
       },
@@ -163,9 +163,15 @@
         "key":"numero.itens.nome",
         "name":"Nomes dos Itens",
         "description":"Nomes dos itens",
-        "source":"source[:numero][:itens].map{|i|i[:nome]}.join(%q(, ))",
+        "source":"source[:numero][:itens].map{|i|i[:nome]}.join(%(, ))",
         "force_source": true,
         "field_type":"string"
+      },
+      {
+        "key":"numero.itens.sku",
+        "name":"SKU dos Itens",
+        "description":"SKU dos Itens",
+        "source":"source[:numero][:itens].map{|i|i[:sku]}.join(%(, ))"
       },
       {
         "key":"numero.cliente.email",

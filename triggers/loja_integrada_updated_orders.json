@@ -168,6 +168,12 @@
         "field_type":"string"
       },
       {
+        "key":"numero.itens.sku",
+        "name":"SKU dos Itens",
+        "description":"SKU dos Itens",
+        "source":"source[:numero][:itens].map{|i|i[:sku]}.join(%(, ))"
+      },
+      {
         "key":"numero.cliente.email",
         "name":"Email do Cliente",
         "description":"Email do cliente.",
