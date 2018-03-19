@@ -267,9 +267,10 @@
   "request": {
     "method_name": "/pedido/search",
     "params": {
-      "limit": 50,
+      "limit": 100,
       "since_atualizado":"{base_datetime_filter}"
     },
+    "extra_params": [{"key": "situacao_id"}],
     "response_field": "objects",
     "additional_resources": [
       { "name": "numero", "method": "/pedido/" }
