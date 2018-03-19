@@ -267,7 +267,7 @@
   "request": {
     "method_name": "/pedido/search",
     "params": {
-      "limit": 100,
+      "limit": 50,
       "since_criado":"{base_datetime_filter}"
     },
     "response_field": "objects",
