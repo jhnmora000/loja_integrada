@@ -229,8 +229,8 @@
       },
       {
         "key":"numero.endereco_entrega.numero",
-        "name":"Nº de Entrega",
-        "description":"Nº de entrega.",
+        "name":"Número de Entrega",
+        "description":"Número de entrega.",
         "field_type":"string"
       },
       {
