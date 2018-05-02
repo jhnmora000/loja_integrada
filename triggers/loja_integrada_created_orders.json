@@ -204,6 +204,12 @@
         "field_type":"string"
       },
       {
+        "key":"numero.endereco_entrega.complemento",
+        "name":"Complemento do endereço de Entrega",
+        "description":"complemento do endereço de entrega.",
+        "field_type":"string"
+      },
+      {
         "key":"numero.endereco_entrega.cidade",
         "name":"Cidade de Entrega",
         "description":"Cidade de entrega.",
