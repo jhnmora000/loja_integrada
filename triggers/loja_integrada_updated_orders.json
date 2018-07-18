@@ -262,6 +262,14 @@
         "name":"CNPJ de Entrega",
         "description":"CNPJ de entrega.",
         "field_type":"string"
+      },
+      {
+        "key":"numero.envios.forma_envio.code",
+        "name":"Código da forma de envio",
+        "source":"source[:numero][:envios][0].try(:dig,:forma_envio,:code)",
+        "force_source":true,
+        "description":"Código da primeira forma de envio (pac ou sedex)",
+        "field_type":"string"
       }
     ]
   },
