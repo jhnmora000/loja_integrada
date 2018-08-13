@@ -152,6 +152,12 @@
         "field_type":"integer"
       },
       {
+        "key":"numero.cliente_obs",
+        "name":"Cliente Obs",
+        "description":"Cliente Obs",
+        "field_type":"string"
+      },
+      {
         "key":"numero.pagamentos.nome",
         "name":"Nomes dos Métodos de Pagamento",
         "description":"nomes dos Métodos de pagamento.",
