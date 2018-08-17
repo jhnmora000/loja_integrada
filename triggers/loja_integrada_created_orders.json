@@ -30,6 +30,12 @@
         "field_type":"decimal"
       },
       {
+        "key":"numero.cupom_desconto.codigo",
+        "name":"Código do cupom de desconto",
+        "description":"Código do cupom de desconto",
+        "field_type":"string"
+      },
+      {
         "key":"numero.valor_envio",
         "name":"Frete",
         "description":"Frete.",

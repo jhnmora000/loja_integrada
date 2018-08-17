@@ -26,25 +26,31 @@
       {
         "key":"numero.valor_desconto",
         "name":"Desconto",
-        "description":"Desconto.",
+        "description":"Desconto",
         "field_type":"decimal"
+      },
+      {
+        "key":"numero.cupom_desconto.codigo",
+        "name":"Código do cupom de desconto",
+        "description":"Código do cupom de desconto",
+        "field_type":"string"
       },
       {
         "key":"numero.valor_envio",
         "name":"Frete",
-        "description":"Frete.",
+        "description":"Frete",
         "field_type":"decimal"
       },
       {
         "key":"numero.valor_subtotal",
         "name":"Valor Subtotal",
-        "description":"Valor Subtotal.",
+        "description":"Valor Subtotal",
         "field_type":"decimal"
       },
       {
         "key":"numero.valor_total",
         "name":"Valor Total",
-        "description":"Valor Total.",
+        "description":"Valor Total",
         "field_type":"decimal"
       },
       {
