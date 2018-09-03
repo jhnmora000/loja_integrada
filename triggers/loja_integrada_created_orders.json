@@ -278,6 +278,9 @@
     ]
   },
   "trigger_type": "polling",
+  "idempotent": [
+    { "type":"body", "field":"numero.numero" }
+  ],
   "base_datetime_filter": {
     "field": "data_criacao",
     "format": "%Y-%m-%dT%H:%m:%S"
