@@ -168,22 +168,32 @@
         "name":"Nomes dos Métodos de Pagamento",
         "description":"nomes dos Métodos de pagamento.",
         "source":"source[:numero][:pagamentos].map{|i|i[:forma_pagamento][:nome]}.join(%q(, ))",
-        "force_source": true,
+        "force_source":true,
         "field_type":"string"
       },
       {
         "key":"numero.itens.nome",
-        "name":"Nomes dos Itens",
+        "name":"Nomes dos itens",
         "description":"Nomes dos itens",
         "source":"source[:numero][:itens].map{|i|i[:nome]}.join(%q(, ))",
-        "force_source": true,
+        "force_source":true,
+        "field_type":"string"
+      },
+      {
+        "key":"numero.itens.nome_e_quantidade",
+        "name":"Nomes e quantidades dos itens",
+        "description":"Nomes e quantidades dos itens",
+        "source":"source[:numero][:itens].map{|i|%(#{i[:nome]} - #{i[:quantidade]})}.join(%q(, ))",
+        "force_source":true,
         "field_type":"string"
       },
       {
         "key":"numero.itens.sku",
-        "name":"SKU dos Itens",
-        "description":"SKU dos Itens",
-        "source":"source[:numero][:itens].map{|i|i[:sku]}.join(%(, ))"
+        "name":"SKU dos itens",
+        "description":"SKU dos itens",
+        "source":"source[:numero][:itens].map{|i|i[:sku]}.join(%q(, ))",
+        "force_source":true,
+        "field_type":"string"
       },
       {
         "key":"numero.cliente.email",
