@@ -196,6 +196,14 @@
         "field_type":"string"
       },
       {
+        "key":"numero.itens.sku_e_quantidade",
+        "name":"SKU e quantidades dos itens",
+        "description":"SKU e quantidades dos itens",
+        "source":"source[:numero][:itens].map{|i|%(#{i[:sku]} - #{i[:quantidade]})}.join(%q(, ))",
+        "force_source":true,
+        "field_type":"string"
+      },
+      {
         "key":"numero.cliente.email",
         "name":"Email do Cliente",
         "description":"Email do cliente.",
