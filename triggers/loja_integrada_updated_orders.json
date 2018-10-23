@@ -314,7 +314,7 @@
   "request": {
     "method_name": "/pedido/search",
     "params": {
-      "limit": 50,
+      "limit": 24,
       "since_atualizado":"{base_datetime_filter}"
     },
     "extra_params": [{"key": "situacao_id"}],
