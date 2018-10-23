@@ -303,7 +303,7 @@
       }
     ]
   },
-  "trigger_type": "polling",
+  "trigger_type": "extra_polling",
   "idempotent": [
     { "type":"body", "field":"numero.numero" }
   ],
