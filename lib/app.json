@@ -30,7 +30,7 @@
         "name": "chave_aplicacao",
         "label": "Chave da Aplicação",
         "type": "hidden",
-        "default": "pluga_chave_aplicacao"
+        "default": "PLUGA_CHAVE_APLICACAO"
       }
     ],
     "tutorial": {
