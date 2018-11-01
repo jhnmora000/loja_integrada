@@ -1,7 +1,7 @@
 const plg = require('pluga-plg');
 const expect = require('chai').expect;
 
-const trigger = require('../../lib/triggers/updated_orders');
+const trigger = require('../../lib/triggers/order_status_changed');
 
 const event = {
   meta: {
@@ -14,7 +14,7 @@ const event = {
   }
 };
 
-describe('Trigger: Updated Orders', function () {
+describe('Trigger: Order status changed', function () {
   it('get last updated orders', function (done) {
     trigger.handle(plg, event).then((orders) => {
       expect(orders).to.be.an('array');
