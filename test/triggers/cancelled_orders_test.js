@@ -1,7 +1,7 @@
 const plg = require('pluga-plg');
 const expect = require('chai').expect;
 
-const trigger = require('../../lib/triggers/paid_orders');
+const trigger = require('../../lib/triggers/cancelled_orders');
 
 const event = {
   meta: {
@@ -14,8 +14,8 @@ const event = {
   }
 };
 
-describe('Trigger: Paid Orders', function () {
-  it('get last paid updated orders', function (done) {
+describe('Trigger: Cancelled Orders', function () {
+  it('get last cancelled updated orders', function (done) {
     trigger.handle(plg, event).then((orders) => {
       expect(orders).to.be.an('array');
       expect(orders[0].numero).to.be.an('object');
