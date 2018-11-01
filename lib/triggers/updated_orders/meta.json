@@ -216,6 +216,12 @@
         "field_type": "string"
       },
       {
+        "key": "numero.cliente.data_nascimento",
+        "name": "Data de nascimento do Cliente",
+        "description": "Data de nascimento do Cliente.",
+        "field_type": "string"
+      },
+      {
         "key": "numero.cliente.telefone_celular",
         "name": "Telefone celular do Cliente",
         "description": "Telefone celular do cliente.",
