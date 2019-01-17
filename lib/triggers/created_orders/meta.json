@@ -3,10 +3,9 @@
     "pt_BR": "Pedido criado",
     "en": "Order created"
   },
-  "trigger_key": "created_orders",
   "description": {
     "pt_BR": "Quando um pedido for criado.",
-    "en": "When a order is created."
+    "en": "When an order is created."
   },
   "trigger_fields": {
     "type": "local",

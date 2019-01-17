@@ -3,10 +3,9 @@
     "pt_BR": "Pedidos devolvidos",
     "en": "Returned orders"
   },
-  "trigger_key": "returned_order",
   "description": {
     "pt_BR": "Quando um pedido for devolvido.",
-    "en": "When a order is returned."
+    "en": "When an order is returned."
   },
   "trigger_fields": {
     "type": "local",

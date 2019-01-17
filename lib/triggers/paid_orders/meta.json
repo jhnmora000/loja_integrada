@@ -3,10 +3,9 @@
     "pt_BR": "Pedidos pago",
     "en": "Paid orders"
   },
-  "trigger_key": "paid_order",
   "description": {
     "pt_BR": "Quando um pedido for pago.",
-    "en": "When a order is paid."
+    "en": "When an order is paid."
   },
   "trigger_fields": {
     "type": "local",

@@ -3,10 +3,9 @@
     "pt_BR": "Pedidos cancelados",
     "en": "Cancelled orders"
   },
-  "trigger_key": "cancelled_order",
   "description": {
     "pt_BR": "Quando um pedido for cancelado.",
-    "en": "When a order is cancelled."
+    "en": "When an order is cancelled."
   },
   "trigger_fields": {
     "type": "local",

@@ -1,12 +1,11 @@
 {
   "name": {
-    "pt_BR": "Mudança de estado do pedido",
-    "en": "Order status changed"
+    "pt_BR": "Pedidos aguardando pagamento",
+    "en": "Waiting payment orders"
   },
-  "trigger_key": "order_status_changed",
   "description": {
-    "pt_BR": "Quando um pedido mudar de estado.",
-    "en": "When a order status changed."
+    "pt_BR": "Quando um pedido estiver aguardando pagamento.",
+    "en": "When an order is waiting for payment."
   },
   "trigger_fields": {
     "type": "local",
