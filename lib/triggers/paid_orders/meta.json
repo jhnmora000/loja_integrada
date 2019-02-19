@@ -299,6 +299,12 @@
         "field_type": "string"
       },
       {
+        "key": "numero.endereco_entrega.referencia",
+        "name": "Referência de Entrega",
+        "description": "Referência de entrega.",
+        "field_type": "string"
+      },
+      {
         "key": "numero.envios.forma_envio.code",
         "name": "Código da forma de envio",
         "source": "source[:numero][:envios][0].try(:dig,:forma_envio,:code)",

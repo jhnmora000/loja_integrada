@@ -297,6 +297,12 @@
         "name": "CNPJ de Entrega",
         "description": "CNPJ de entrega.",
         "field_type": "string"
+      },
+      {
+        "key": "numero.endereco_entrega.referencia",
+        "name": "Referência de Entrega",
+        "description": "Referência de entrega.",
+        "field_type": "string"
       }
     ]
   },
